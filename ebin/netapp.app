@@ -1,0 +1,10 @@
+{application,netapp,
+             [{description,"An OTP application"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{netapp_app,[]}},
+              {applications,[kernel,stdlib,lager]},
+              {env,[]},
+              {modules,[netapp_app,netapp_sup]},
+              {licenses,["Apache 2.0"]},
+              {links,[]}]}.
