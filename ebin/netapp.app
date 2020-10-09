@@ -5,6 +5,7 @@
               {mod,{netapp_app,[]}},
               {applications,[kernel,stdlib,lager]},
               {env,[]},
-              {modules,[netapp_app,netapp_sup]},
+              {modules,[dhtcp,dhtcp_acceptor,dhtcp_conn,dhtcp_conn_sup,
+                        dhtcp_sup,netapp_app,netapp_sup,tcp_test]},
               {licenses,["Apache 2.0"]},
               {links,[]}]}.

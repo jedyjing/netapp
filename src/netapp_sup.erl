@@ -14,8 +14,6 @@
 -define(SERVER, ?MODULE).
 
 start_link() ->
-  lager:error("~p ~p",[testerror,#{1 => 10,a => 20}]),
-  lager:warning("~p ~p",[testerror,#{1 => 10,a => 20}]),
     supervisor:start_link({local, ?SERVER}, ?MODULE, []).
 
 %% sup_flags() = #{strategy => strategy(),         % optional
